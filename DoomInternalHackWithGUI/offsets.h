@@ -4,6 +4,7 @@
 #define ENTITY_LIST 0x7FF76A958B50
 #define LOCAL_PLAYER 0x7FF76A958B70
 
+
 class idPhysics_Player
 {
 public:
