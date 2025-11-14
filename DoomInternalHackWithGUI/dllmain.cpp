@@ -97,7 +97,7 @@ DWORD WINAPI OnProcessDetach(LPVOID lpParam) {
 void __fastcall updateAngles(long long param_1, angles* param_2, float* param_3)
 {
     CurrentAngles = param_2;
-    VectorAim();
+    VectorAimOnline();
 
     originalUpdateAngles(param_1, CurrentAngles, param_3);
 }

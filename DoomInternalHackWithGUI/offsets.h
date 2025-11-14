@@ -26,6 +26,13 @@ public:
 	float maxHealth; //0x2B2B0
 };
 
+class idPlayer {
+public:
+	char pad_1111[277460];
+	float health;
+	float maxHealth;
+};
+
 class angles {
 public:
 	Vector3 rotation;
