@@ -62,7 +62,7 @@ void InitializeDetours() {
 }
 
 void InitializeAddresses() {
-    originalUpdateAngles = (updateAngles_t)(mainModule + 0xE5D470);
+    originalUpdateAngles = (updateAngles_t)(mainModule + 0xE5EB30);
     InitializeDetours();
 }
 

@@ -13,8 +13,8 @@ Vector3 GetAngle(Vector3 from, Vector3 to) {
 }
 
 void VectorAim() {
-	int64_t* entityListAddress = (int64_t*)(mainModule + 0x02F48B50);
-	uint64_t* localEntAddress = reinterpret_cast<uint64_t*>(mainModule + 0x02F48B70);
+	int64_t* entityListAddress = (int64_t*)(mainModule + 0x2F4AB50);
+	uint64_t* localEntAddress = reinterpret_cast<uint64_t*>(mainModule + 0x2F4AB70);
 	uint64_t localEnt = *localEntAddress;
 	idPhysics_Player* player = *(idPhysics_Player**)(localEnt + 0x808);
 	idPhysics_AI targetEnt;

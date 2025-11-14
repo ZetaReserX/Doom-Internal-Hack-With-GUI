@@ -27,8 +27,8 @@ ImColor GetBarColor(float percent) {
 void RenderESP() {
 	ImDrawList* drawList = ImGui::GetBackgroundDrawList();
 
-	view_matrix_t* vm = (view_matrix_t*)(mainModule + 0x5B0D580);
-	int64_t* entityListPointer = (int64_t*)(mainModule + 0x02F48B50);
+	view_matrix_t* vm = (view_matrix_t*)(mainModule + 0x5B0F680);
+	int64_t* entityListPointer = (int64_t*)(mainModule + 0x2F4AB50);
 
 	if (!*entityListPointer)
 	{
